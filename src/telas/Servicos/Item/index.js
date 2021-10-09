@@ -24,6 +24,7 @@ export default function Item({nome, preco, descricao}){
         setTotal(novaQuantidade * preco)
     }
     return <>
+    
     <TouchableOpacity style = {estilos.info} onPress = {inverteExpandir}>
         <Text style = {estilos.nome}> {nome}</Text>
         <Text style = {estilos.descricao}> {descricao}</Text>

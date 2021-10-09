@@ -36,7 +36,7 @@ const servicos = [
 
 export default function Servicos(){
     return <TelaPadrao>
-        <Text style = {estilos.title}>Serviços</Text>
+        <Text style = {[estilos.title,estilos.servicoTop]}>Serviços</Text>
         <FlatList
             data = {servicos}
             renderItem = {({item}) => <Item {...item} />} 

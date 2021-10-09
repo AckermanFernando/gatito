@@ -2,11 +2,17 @@ import { StyleSheet } from "react-native";
 import { cores } from '../../../estilos'
 
 export default StyleSheet.create({
-    
+    servicoTop: {
+        // justifyContent: 'center' ,
+        justifyContent: 'space-between',
+        padding: 30,
+        backgroundColor: cores.roxo,
+        width: '100%'
+    },
     title:{
         fontSize: 20,
         fontWeight: 'bold',
-        color: cores.roxo,
+        color: cores.laranja,
         textAlign: 'center'
     },
     nome: {

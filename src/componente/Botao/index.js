@@ -11,7 +11,7 @@ export default function Botao({pequeno = false, invertido = false, valor, acao, 
     
         <Text style = {estilosPadrao.valor}>{valor}</Text>
         {/* <View style={estilosPadrao.buttonIconSeparatorStyle} /> */}
-        <Image source={require('./../../../assets/iconcarr.png')} style={funcaoEstilosPadrao.buttonImageIconStyle}/> 
+        {!invertido && <Image source={require('./../../../assets/iconcarr.png')} style={funcaoEstilosPadrao.buttonImageIconStyle}/> }
         
     </TouchableOpacity>
 }
